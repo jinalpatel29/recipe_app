@@ -1,0 +1,10 @@
+<fieldset>
+    <legend>Create User</legend>
+    <form (submit)="onSubmit(name)" >
+      User: <input type="text" name="name" [(ngModel)]="name" placeholder="Please enter name here"><br>
+     <br> 
+     <button type="submit">Create
+       <!-- <a [routerLink]="['/new']">Create User</a> -->
+      </button>
+    </form>
+  </fieldset>
